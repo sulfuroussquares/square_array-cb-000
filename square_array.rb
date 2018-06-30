@@ -2,7 +2,7 @@ def square_array(array)
   i = 0
   array.each do |number|
     array[i] = array[i] * array[i]
-end
+  end
 end
 
 #You will build a method, `square_array`, that squares each element in an array of numbers
