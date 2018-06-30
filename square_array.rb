@@ -1,8 +1,7 @@
 def square_array(array)
   i = 0
-  primary_colors = ["Red", "Yellow", "Blue"]
-array.each do |number|
-  array[]
+  array.each do |number|
+    array[i] = array[i] * array[i]
 end
 end
 
